@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-s2s-axios-apis",
+  "name": "babel-plugin-s2s-axios-api",
   "version": "0.0.1",
-  "description": "generate axios apis",
+  "description": "generate axios api",
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir lib",

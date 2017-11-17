@@ -1,7 +1,7 @@
 module.exports = babel => {
   const t = babel.types;
   return {
-    name: "s2s-axios-apis",
+    name: "s2s-axios-api",
     visitor: {
       ExpressionStatement: function(path){
         const actionName = path.node.expression.name
